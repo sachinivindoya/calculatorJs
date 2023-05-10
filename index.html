@@ -11,31 +11,31 @@
     <div class="cal">
         <form>
             <div class="display">
-                <input type="text" name="display">
+                <input type="text" name="display" readonly ;>
             </div>
             <div>
                 <input type="button" value="AC">
                 <input type="button" value="DE">
                 <input type="button" value=".">
-                <input type="button" value="/">
+                <input type="button" value="/" onclick="display.value += '/'">
             </div>
             <div>
-                <input type="button" value="7">
-                <input type="button" value="8">
-                <input type="button" value="9">
-                <input type="button" value="*">
+                <input type="button" value="7" onclick="display.value += '7'">
+                <input type="button" value="8" onclick="display.value += '8'">
+                <input type="button" value="9" onclick="display.value += '9'">
+                <input type="button" value="*" onclick="display.value += '*'">
             </div>
             <div>
-                <input type="button" value="4">
-                <input type="button" value="5">
-                <input type="button" value="6">
-                <input type="button" value="-">
+                <input type="button" value="4" onclick="display.value += '4'">
+                <input type="button" value="5" onclick="display.value += '5'">
+                <input type="button" value="6" onclick="display.value += '6'">
+                <input type="button" value="-" onclick="display.value += '-'">
             </div>
             <div>
-                <input type="button" value="1">
-                <input type="button" value="2">
-                <input type="button" value="3">
-                <input type="button" value="+">
+                <input type="button" value="1" onclick="display.value += '1'">
+                <input type="button" value="2" onclick="display.value += '2'">
+                <input type="button" value="3" onclick="display.value += '3'">
+                <input type="button" value="+" onclick="display.value += '+'">
             </div>
             <div>
                 <input type="button" value="00">
