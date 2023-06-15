@@ -43,9 +43,9 @@ form .display input{
 }
 form input.eq{
     width: 145px;
-   background-color: mediumturquoise;
+   background-color: sandybrown;
     font-size: 30px ;
 }
 form input.operator{
-    color: aqua;
+    color: springgreen;
 }
